@@ -63,6 +63,22 @@ body {
 
 
 
+/* CARD EFFECTS */
+
+.cardthumb{
+  overflow: hidden;
+
+}
+
+.cardthumb img{
+  transition: all 1.5s ease;
+}
+
+.cardthumb:hover img{
+  transform: scale(1.2);
+
+}
+
 
 /*---*/
 
