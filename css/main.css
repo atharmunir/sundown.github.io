@@ -31,8 +31,9 @@ body {
 .nav-item:hover {
 	
 	/*background-color: #0074b3;*/
-	background-color: rgba(0, 116, 179,0.6);
-	transition: 0.4s ease
+  background-color: rgba(89, 133, 156, 0.6);
+  border-radius: 10px;
+	transition: 0.5s ease
 	/*color: yellow;*/
 	/*box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);*/
 
@@ -44,17 +45,28 @@ body {
     transition: 0.6s ease
 }
 
+.navbar-nav{
+  text-align: center;
+}
+
+.nav-link{
+  padding: .2rem 1rem;
+}
 
 
 
-.navbar .dropdown-menu{
+
+
+
+/* .navbar .dropdown-menu{
     background-color: rgba(0, 99, 151,0.6);
 
 }
 
 .dropdown-item:hover{
-    background-color: rgba(0, 99, 151,0.7);
-}
+    background-color: rgba(105, 156, 184, 0.7);        
+    transition: all 1.5s ease;
+} */
 
 
 /*.dropdown-menu {
